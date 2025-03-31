@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e23fc56a692874a9d054f839122977, type: 3}
+  m_Name: AttackConfig
+  m_EditorClassIdentifier: 
+  baseDamage: 20
+  basicProjectileSpeed: 10
+  basicShootRange: 10
+  basicAttackPoolTag: BasicAttack
+  basicProjectilePrefab: {fileID: 0}
+  specialDamage: 40
+  specialProjectileSpeed: 15
+  specialShootRange: 15
+  specialAttackCooldown: 2
+  aimingTime: 1
+  specialAttackPoolTag: SpecialAttack
+  specialProjectilePrefab: {fileID: 0}
+  aimIndicatorPrefab: {fileID: 0}
